@@ -6,27 +6,121 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <h1>Welcome to my portfolio</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aliquam repellat eaque fuga nihil doloribus a iure, et, consequatur odio quasi sapiente saepe? Provident culpa quae dicta nemo quos quam aut asperiores enim impedit. Architecto, laudantium ratione eaque dolor inventore qui placeat ea. Natus animi nihil at facere ullam sequi!</p>
-    
-    <h2>I live in Pabna</h2>
-    <hr>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, nam. Animi, delectus laborum tempore ea officia at ut itaque voluptatibus</p>.
-    <p>
-        first line <br>
-        second line
-    </p>
-    <!-- Section intro -->
-     <header>
+    <!-- Section: intro -->
+    <nav>
+        <ul>
+            <li>
+            <a href="#contact">Contact Me</a>
+            </li>
+            <li>
+            <a href="#skills">My Skills</a>
+            </li>
+            <li>
+            <a href="#projects">My projects</a>
+            </li>
+            <li>
+            <a href="#about">About Me</a>
+            </li>
+        </ul>
+     </nav>
+
+    <!-- Section: intro -->
+     <header id="intro">
         <h1>Elias Bari</h1>
         <p>Aspiring software enginner</p>
+        <a href="https://www.youtube.com/@gowithhabib">
+            <img src="./images/1762946933567.jpeg" alt="Ladies at Vivasoft" height="200">
+        </a>
+        
         <hr>
      </header>
 
-    <!-- Section intro -->
-    <!-- Section intro -->
-    <!-- Section intro -->
+
+    <!-- Section: About Me -->
+     <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Experience:</strong> Lorem ipsum dolor sit amet consectetur,
+             adipisicing elit. Quia, exercitationem.</p>
+        <p><strong>Education:</strong> Lorem ipsum dolor sit amet consectetur,
+             adipisicing elit. Quia, exercitationem.</p>
+     </section>
+
+
+
+    <!-- Section Skills -->
+     <section id="skills">
+        <h2>Skills</h2>
+     <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>Golang</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+     </table>
+     </section>
+
+
+    <!-- Section Project -->
+     <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li><a target="_blank" href="https://github.com/Eliasbari1/portfolio_html">portfolio site</a></li>
+            <li>Golang Project</li>
+            <li>Ecoomerce Website</li>
+        </ol>
+     </section>
+
+
+      <!-- Section Contact  -->
+     <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id = "name" name="name" required>
+            </div>
+
+             <div>
+                <label for="email">Email: </label>
+                <input type="email" id = "email" name="email" required>
+             </div>
+
+             <div>
+                <label for="name">Message: </label>
+                <textarea name="message" id="message"></textarea>
+             </div>
+
+             <button type="submit">Submit</button>
+             <button type="reset">Clear</button>
+        </form>
+     </section>
+
+
+     <!-- section footer  -->
+      <footer>
+        <p>Copyrights Reserved by &copy; Elias2025</p>
+        <p>Developed with &hearts;</p>
+        <a href="tel: 01959724171">Call Me</a>
+        <a href="mailto:eliasbari046@gmail.com">Email Me</a>
+        
+      </footer>
+
+
 
 </body>
 </html>
